@@ -5,6 +5,8 @@ Given a picture of an Egyptian national id, you are tasked to remove the logo of
 ## Prepare and Annotate Data:
     Obtain the dataset from Kaggle and annotate it using Roboflow.
     Export the annotated data in YOLOv5 format.
+    - [Kaggle Link](https://www.kaggle.com/datasets/mostafaebrahiem/egyptian-ids)
+    - [Annotated Data](https://app.roboflow.com/cairo-university-vqdin/fine_tuned/1)
 
 ## Object Detection with YOLOv5:
     Use YOLOv5 to detect the text "جمهورية مصر العربية" in the image.
