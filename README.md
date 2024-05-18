@@ -3,7 +3,7 @@ Given a picture of an Egyptian national id, you are tasked to remove the logo of
 
 # Solution:
     Prepare and Annotate Data:
-        Obtain the dataset from Kaggle and annotate it using -[Roboflow](https://app.roboflow.com/cairo-university-vqdin/fine_tuned/1).
+        Obtain the dataset from Kaggle and annotate it using - [Roboflow](https://app.roboflow.com/cairo-university-vqdin/fine_tuned/1).
         Export the annotated data in YOLOv5 format.
     
     Object Detection with YOLOv5:
