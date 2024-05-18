@@ -2,7 +2,7 @@
 Given a picture of an Egyptian national id, you are tasked to remove the logo of "جمهورية مصر العربية" and replace it with the color of its background, see attached examples.
 
 # Solution:
-   ## Prepare and Annotate Data:
+    Prepare and Annotate Data:
         Obtain the dataset from Kaggle and annotate it using Roboflow.
         Export the annotated data in YOLOv5 format.
     
