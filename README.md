@@ -1,8 +1,11 @@
 # Remove-EG-logo
 Given a picture of an Egyptian national id, you are tasked to remove the logo of "جمهورية مصر العربية" and replace it with the color of its background, see attached examples.
 
-# Step-by-Step Solution:
-
+# Solution:
+   ## Prepare and Annotate Data:
+        Obtain the dataset from Kaggle and annotate it using Roboflow.
+        Export the annotated data in YOLOv5 format.
+    
     Object Detection with YOLOv5:
         Use YOLOv5 to detect the text "جمهورية مصر العربية" in the image.
         Save the coordinates of the detected bounding box to a text file.
